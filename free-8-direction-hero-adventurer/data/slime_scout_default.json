@@ -1,0 +1,140 @@
+{
+  "name": "slime_scout",
+  "variant": "default",
+  "frame_size": [
+    32,
+    32
+  ],
+  "atlas": "atlases/slime_scout_default.png",
+  "columns": 8,
+  "row_order": "animation x direction",
+  "directions": [
+    "s",
+    "se",
+    "e",
+    "ne",
+    "n",
+    "nw",
+    "w",
+    "sw"
+  ],
+  "mirrored": {
+    "sw": "se",
+    "w": "e",
+    "nw": "ne"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "frames": 4,
+      "ms_per_frame": 150,
+      "loop": true,
+      "rows": {
+        "s": 0,
+        "se": 1,
+        "e": 2,
+        "ne": 3,
+        "n": 4,
+        "nw": 5,
+        "w": 6,
+        "sw": 7
+      }
+    },
+    {
+      "name": "walk",
+      "frames": 8,
+      "ms_per_frame": 100,
+      "loop": true,
+      "rows": {
+        "s": 8,
+        "se": 9,
+        "e": 10,
+        "ne": 11,
+        "n": 12,
+        "nw": 13,
+        "w": 14,
+        "sw": 15
+      }
+    },
+    {
+      "name": "attack",
+      "frames": 6,
+      "ms_per_frame": 80,
+      "loop": false,
+      "rows": {
+        "s": 16,
+        "se": 17,
+        "e": 18,
+        "ne": 19,
+        "n": 20,
+        "nw": 21,
+        "w": 22,
+        "sw": 23
+      }
+    },
+    {
+      "name": "dash",
+      "frames": 4,
+      "ms_per_frame": 70,
+      "loop": false,
+      "rows": {
+        "s": 24,
+        "se": 25,
+        "e": 26,
+        "ne": 27,
+        "n": 28,
+        "nw": 29,
+        "w": 30,
+        "sw": 31
+      }
+    },
+    {
+      "name": "parry",
+      "frames": 4,
+      "ms_per_frame": 90,
+      "loop": false,
+      "rows": {
+        "s": 32,
+        "se": 33,
+        "e": 34,
+        "ne": 35,
+        "n": 36,
+        "nw": 37,
+        "w": 38,
+        "sw": 39
+      }
+    },
+    {
+      "name": "hurt",
+      "frames": 3,
+      "ms_per_frame": 90,
+      "loop": false,
+      "rows": {
+        "s": 40,
+        "se": 41,
+        "e": 42,
+        "ne": 43,
+        "n": 44,
+        "nw": 45,
+        "w": 46,
+        "sw": 47
+      }
+    },
+    {
+      "name": "death",
+      "frames": 6,
+      "ms_per_frame": 120,
+      "loop": false,
+      "rows": {
+        "s": 48,
+        "se": 49,
+        "e": 50,
+        "ne": 51,
+        "n": 52,
+        "nw": 53,
+        "w": 54,
+        "sw": 55
+      }
+    }
+  ]
+}

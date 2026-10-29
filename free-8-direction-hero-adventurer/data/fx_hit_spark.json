@@ -1,0 +1,16 @@
+{
+  "name": "fx_hit_spark",
+  "frame_size": [
+    32,
+    32
+  ],
+  "frames": 7,
+  "ms_per_frame": 50,
+  "loop": false,
+  "sheet": "sheets/fx_hit_spark.png",
+  "pivot": [
+    15,
+    15
+  ],
+  "use": "play once at the spear tip on a hit; centre the frame on the hit point"
+}
