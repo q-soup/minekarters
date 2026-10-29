@@ -146,6 +146,9 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=2072150807]
+position = Vector2(288, 165)
+scale = Vector2(3, 3)
+motion_mode = 1
 script = ExtResource("1_jm5j8")
 metadata/_edit_group_ = true
 
