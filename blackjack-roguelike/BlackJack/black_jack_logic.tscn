@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bi0cmwpsrvgw7"]
+
+[ext_resource type="Script" uid="uid://c6wifwjcb4dg7" path="res://BlackJack/BlackJack.gd" id="1_fnunw"]
+
+[node name="BlackJack_logic" type="Node" unique_id=20006016]
+script = ExtResource("1_fnunw")
