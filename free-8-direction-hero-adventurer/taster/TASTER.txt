@@ -1,0 +1,18 @@
+TASTER FILES - from 8-Direction Mini Heroes v1.1 (paid pack, $4.99)
+https://furkan90x.itch.io/8-direction-mini-heroes
+
+These 16 PNG files are unmodified copies (same bytes) of the files with the same
+names in the full pack (frames/<hero>/default/).  Facing south (s) only:
+  mage/mage_default_idle_s_00..03.png                 mage idle, 4 frames
+  mage/mage_default_walk_s_00..07.png                 mage walk, 8 frames
+  necromancer/necromancer_default_idle_s_00..03.png   necromancer idle, 4 frames
+Frame size 32x32 px, RGBA PNG - the same size, palette and naming as the adventurer.
+
+The full pack has 8 heroes (knight, mage, archer, bard, assassin, barbarian,
+paladin, necromancer) x 8 directions x 7 animations (idle, walk, attack, dash,
+parry, hurt, death) x 3 colour variants = 6,720 frames.
+
+All 24 packs, $14.99 (Complete RetroLabStudioCo Pixel Art Collection): https://itch.io/s/202331
+
+License: LICENSE.txt of this free pack applies to these files too (personal and
+commercial use, no resale or redistribution as an asset pack).

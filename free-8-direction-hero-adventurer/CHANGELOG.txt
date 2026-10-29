@@ -1,0 +1,18 @@
+FREE 8-DIRECTION HERO - ADVENTURER - CHANGELOG
+
+v1.2 (2026-10-21)
+  + taster/: 16 unmodified frames from 8-Direction Mini Heroes v1.1 (mage idle
+    + walk, necromancer idle; facing south) and taster/TASTER.txt.
+  + README: full-pack numbers updated (8 heroes, 6,720 frames) and links to
+    more packs and the 24-pack bundle.
+  = All v1.1 files are unchanged.
+
+v1.1 (2026-10-20)
+  + Slime Scout enemy: 8 directions x 7 animations (idle, walk, attack, dash,
+    parry, hurt, death) = 280 frames, strips and atlas.
+  + Hit spark effect: 7 frames, 32x32.
+  + JSON data files for the hero, the slime and the effect.
+  = All v1.0 hero PNG files are unchanged.
+
+v1.0 (2026-10-02)
+  Adventurer hero: 8 directions x 7 animations = 280 frames, 56 strips, 1 atlas.
