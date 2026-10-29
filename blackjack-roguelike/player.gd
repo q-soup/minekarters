@@ -3,6 +3,7 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 var screen_size
+var last_direction
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity (floating rn).
@@ -42,3 +43,30 @@ func _process(delta):
 		
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
+	
+	if Input.is_action_pressed("move_right") and Input.is_action_pressed("move_up"):
+		$AnimatedSprite2D.animation = "walk NE"
+		last_direction = "NE"
+	elif Input.is_action_pressed("move_right") and Input.is_action_pressed("move_down"):
+		$AnimatedSprite2D.animation = "walk SE"
+		last_direction = "SE"
+	elif Input.is_action_pressed("move_left") and Input.is_action_pressed("move_down"):
+		$AnimatedSprite2D.animation = "walk SW"
+		last_direction = "SW"
+	elif Input.is_action_pressed("move_left") and Input.is_action_pressed("move_up"):
+		$AnimatedSprite2D.animation = "walk NW"
+		last_direction = "NW"
+	elif Input.is_action_pressed("move_right"):
+		$AnimatedSprite2D.animation = "walk E"
+		last_direction = "E"
+	elif Input.is_action_pressed("move_up"):
+		$AnimatedSprite2D.animation = "walk N"
+		last_direction = "N"
+	elif Input.is_action_pressed("move_left"):
+		$AnimatedSprite2D.animation = "walk W"
+		last_direction = "W"
+	elif Input.is_action_pressed("move_down"):
+		$AnimatedSprite2D.animation = "walk S"
+		last_direction = "S"
+	
+	
